@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/pauloAlba/summaryComponent/assets/17308374/5efaf2c4-b585-4994-8106-f733dad62c49)
+![image](https://github.com/pauloAlba/Huddlelandingpage/assets/17308374/97f2415d-b81e-45f8-a368-498d15f04c46)
 
 
 ### Links
