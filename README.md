@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/pauloAlba)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/pauloAlba)
+- Website - [Linkedin](https://www.linkedin.com/in/paulo-alba-9b4347165/)
+- Frontend Mentor - [@pauloAlba](https://www.frontendmentor.io/profile/pauloAlba)
 
