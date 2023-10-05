@@ -1,0 +1,263 @@
+body{
+  min-height: 100vh;
+  text-wrap: balance;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* HEADER */
+header{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 100vw;
+  background-color: var(--Very-Pale-Cyan);
+
+  font-family: 'Poppins', sans-serif;
+  background-image: url(/images/bg-hero-desktop.svg);
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6rem;
+  align-items: center;
+  width: 100%;
+}
+header nav img{
+  width: 100px;
+}
+
+header section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+header section img{
+  width: 40%;
+  min-width: 300px;
+}
+header section div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1.5rem;
+  width: 40%;
+  min-width: 200px;
+}
+@media (max-width: 60rem) {
+  header section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    width: 40%;
+    min-width: 300px;
+    margin-bottom: 5rem;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 100vw;
+    background-color: var(--Very-Pale-Cyan);
+  
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/images/bg-hero-mobile.svg);
+  }
+}
+
+header section h1{
+  font-size: 2.6rem;
+}
+/* MAIN */
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5rem 10rem;
+  gap: 5rem;
+}
+@media (max-width: 60rem) {
+  main{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 5rem 2rem;
+    gap: 5rem;
+    height: auto;
+  }
+}
+
+
+main > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 10px rgba(207, 207, 207, 0.486);
+  border-radius: 2rem;
+  padding: 4rem 0;  
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: white;
+}
+main div div{
+  width: 40%;
+  min-width: 200px;main div p{
+    text-align: left;
+    width: 350px;
+  
+    font-weight: 400;
+  }
+}
+
+
+main div img{
+  width: 30%;
+  min-width: 100px;
+}
+main div > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+main div p{
+  text-align: center;
+  width: 70%;
+  min-width: 300px;
+  font-weight: 400;
+}
+.last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  bottom: -100px;
+  width: 100%;
+  max-width: 550px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10rem 2rem 4rem;
+  gap: 8em;
+  background-color: var(--Very-Dark-Cyan);
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
+footer div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 1rem;
+}
+
+footer li{
+  margin-top: 2rem;  
+}
+.ulLi{
+  display: flex;
+  gap: 5rem;
+  width: 400px;
+}
+
+@media (max-width: 60rem) {
+
+  footer div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 300px;
+    gap: 1rem;
+  }
+  .ulLi{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.growTogether div{
+  order: 1;
+}
+.growTogether img{
+  order: 2;
+}
+
+@media (max-width: 60rem) {
+  .growTogether div{
+    order: 2;
+  }
+  .growTogether img{
+    order: 1;
+  }
+
+}
+
+.yourUsers div{
+  order: 1;
+}
+.yourUsers img{
+  order: 2;
+}
+@media (max-width: 60rem) {
+  .yourUsers div{
+    order: 2;
+  }
+  .yourUsers img{
+    order: 1;
+  }
+}
+
+/* STYLED BUTTONS */
+
+.getStartedForFree{
+  background-color: var(--Pink);
+  color: white;
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+  font-size: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.308);
+  transition: .3s;
+  &:hover{
+      opacity: 0.7;
+  }
+}
+.tryItForFree{
+  background-color: white;
+  color: var(--Very-Dark-Cyan);
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+  font-size: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.308);
+ transition: .3s;
+  &:hover{
+    opacity: 0.7;
+  }
+}

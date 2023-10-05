@@ -1,0 +1,31 @@
+
+:root{
+  /* FONT */
+  font-size: 62.5%;
+  
+  /* COLORS */
+  
+  /* PRIMARY */
+  --Pink: hsl(322, 100%, 66%);
+  
+  /* NEUTRAL */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+p{
+  color: var(--Grayish-Blue);
+}
+  
