@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/home/my-challenges?tab=completed)
-- Live Site URL: [Add live site URL here](https://stupendous-banoffee-b85518.netlify.app)
+- Solution URL: [Frontend Mentor Page](https://www.frontendmentor.io/home/my-challenges?tab=completed)
+- Live Site URL: [Netlify](https://stupendous-banoffee-b85518.netlify.app)
 
 
 ### Built with
