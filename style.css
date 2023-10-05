@@ -1,7 +1,6 @@
 body{
   min-height: 100vh;
   text-wrap: balance;
-
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
@@ -11,22 +10,22 @@ header{
   display: flex;
   flex-direction: column;
   place-items: center;
-  width: 100vw;
   background-color: var(--Very-Pale-Cyan);
-
   font-family: 'Poppins', sans-serif;
   background-image: url(/images/bg-hero-desktop.svg);
+  font-size: 1rem;
+
 }
 header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 6rem;
+  padding:  2rem 4rem;
   align-items: center;
   width: 100%;
 }
 header nav img{
-  width: 100px;
+  width: 240px;
 }
 
 header section{
@@ -38,7 +37,7 @@ header section{
 
 }
 header section img{
-  width: 40%;
+  width: 50%;
   min-width: 300px;
 }
 header section div{
@@ -46,9 +45,13 @@ header section div{
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  gap: 1.5rem;
+  gap: 3rem;
   width: 40%;
   min-width: 200px;
+}
+
+header section h1{
+  font-size: 3.6rem;
 }
 @media (max-width: 60rem) {
   header section div{
@@ -68,15 +71,23 @@ header section div{
     place-items: center;
     width: 100vw;
     background-color: var(--Very-Pale-Cyan);
+    gap: 5rem;
+    padding: 0 0 4rem;
   
     font-family: 'Poppins', sans-serif;
     background-image: url(/images/bg-hero-mobile.svg);
   }
+
+  header nav img{
+    width: 120px;
+  }
+  
+  
+  header section h1{
+    font-size: 2rem;
+  }
 }
 
-header section h1{
-  font-size: 2.6rem;
-}
 /* MAIN */
 main{
   display: flex;
@@ -84,7 +95,6 @@ main{
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 5rem 10rem;
   gap: 5rem;
 }
 @media (max-width: 60rem) {
@@ -106,7 +116,7 @@ main > div{
   justify-content: center;
   box-shadow: 1px 1px 10px rgba(207, 207, 207, 0.486);
   border-radius: 2rem;
-  padding: 4rem 0;  
+  padding: 4rem;  
   flex-wrap: wrap;
   gap: 2rem;
   background-color: white;
@@ -123,8 +133,8 @@ main div div{
 
 
 main div img{
-  width: 30%;
-  min-width: 100px;
+  width: 40%;
+  min-width: 300px;
 }
 main div > div{
   display: flex;
@@ -133,10 +143,12 @@ main div > div{
   align-items: center;
   gap: 2rem;
 }
+h2{
+  font-size: 3.2rem;
+}
 
 main div p{
   text-align: center;
-  width: 70%;
   min-width: 300px;
   font-weight: 400;
 }
@@ -159,9 +171,11 @@ footer{
   flex-wrap: wrap;
   padding: 10rem 2rem 4rem;
   gap: 8em;
+  width: 100%;
   background-color: var(--Very-Dark-Cyan);
   color: white;
   font-weight: 400;
+  font-size: 1rem;
   text-align: left;
 }
 footer div:nth-child(1){
@@ -184,6 +198,7 @@ footer li{
 
 @media (max-width: 60rem) {
 
+
   footer div:nth-child(1){
     display: flex;
     flex-direction: column;
@@ -196,8 +211,11 @@ footer li{
     display: flex;
     flex-direction: column;
   }
-}
+  h2{
+    font-size: 1.6rem;
+  }
 
+}
 
 .growTogether div{
   order: 1;
@@ -216,20 +234,7 @@ footer li{
 
 }
 
-.yourUsers div{
-  order: 1;
-}
-.yourUsers img{
-  order: 2;
-}
-@media (max-width: 60rem) {
-  .yourUsers div{
-    order: 2;
-  }
-  .yourUsers img{
-    order: 1;
-  }
-}
+
 
 /* STYLED BUTTONS */
 
@@ -238,7 +243,7 @@ footer li{
   color: white;
   padding: 1rem 3.5rem;
   border-radius: 2rem;
-  font-size: 8px;
+  font-size: 1.6rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.308);
@@ -252,12 +257,22 @@ footer li{
   color: var(--Very-Dark-Cyan);
   padding: 1rem 3.5rem;
   border-radius: 2rem;
-  font-size: 8px;
+  font-size: 1.6rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.308);
  transition: .3s;
   &:hover{
     opacity: 0.7;
+  }
+}
+@media (max-width: 60rem) {
+  .tryItForFree{
+    background-color: white;
+    color: var(--Very-Dark-Cyan);
+    padding: 1rem 3.5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+
   }
 }
